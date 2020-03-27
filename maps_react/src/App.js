@@ -5,7 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-	static state = {
+	state = {
 		latitude: 0,
 		longitude: 0,
 		zoom: 8,
