@@ -11,8 +11,8 @@ export const Tile = React.memo(({ x, y, z, posx, posy }) => {
 			className="mapTile"
 			src={`https://maps.wikimedia.org/osm-intl/${z}/${x}/${y}.png`}
 			style={{
-				left: (posx * 25) + "%",
-				top: (posy * 25) + "%"
+				left: (posx * 150) + "px",
+				bottom: (posy * 150) + "px"
 			}}
 		/>
 	);
